@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gustavo.mobdoc_v0.MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="165dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="13.5dp"
+            android:layout_marginEnd="13.5dp"
+            android:layout_marginRight="13dp"
+            app:srcCompat="@drawable/fundo" />
+
+        <FrameLayout
+            android:id="@+id/publisher_container"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            android:padding="2dp" />
+
+        <FrameLayout
+            android:id="@+id/subscriber_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
